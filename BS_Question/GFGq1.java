@@ -1,16 +1,17 @@
-package Leetcode;
+package BS_Question;
 
-public class LC33 {
+public class GFGq1 {
     public static void main(String[] args) {
-        int[] nums = {5,1,3};
-        int target = 5;
-        int maxInd = pivot(nums);
-        int result = BS(nums,target,maxInd+1,nums.length-1);
-        if(result == -1){
-            result =  BS(nums,target,0,maxInd);
-        }
-        System.out.println(result);
+        int[] arr = {7, 9, 11, 12, 5};
+        System.out.println(countRotation(arr));
     }
+
+
+    static int countRotation(int[] arr){
+        int pivotInd = pivot(arr);
+        return  pivotInd+1;
+    }
+
 
     static int pivot(int[] arr){
         if(arr.length ==1){
@@ -32,21 +33,6 @@ public class LC33 {
                 return mid;
             }
 
-        }
-        return -1;
-    }
-
-
-    static int BS(int[] arr, int target,int s,int e ){
-        while(s<=e){
-            int mid = s+(e-s)/2;
-            if(arr[mid]>target){
-                e = mid-1;
-            }else if(arr[mid]<target){
-                s=mid+1;
-            }else{
-                return mid;
-            }
         }
         return -1;
     }
