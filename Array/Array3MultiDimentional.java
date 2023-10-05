@@ -46,4 +46,5 @@ public class Array3MultiDimentional {
             System.out.println(Arrays.toString(e));
         }
     }
+
 }
