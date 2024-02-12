@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Array8Reverse {
     public static void main(String[] args) {
-        int[] arr = {1,3,5,99,7,9,8};
+        int[] arr = {1,3,5,7,9,8};
         reverseArr(arr);
         System.out.println(Arrays.toString(arr));
     }

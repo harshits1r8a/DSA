@@ -19,7 +19,7 @@ public class Array9ExpArr {
 //        System.out.println(a);
 //        System.out.println(b);
 
-        String str = "Harshit";
+        String str = "Harshit Sharma121";
         String str2 = str;
         str2 = "Harshit Sharma";
         System.out.println(str2);

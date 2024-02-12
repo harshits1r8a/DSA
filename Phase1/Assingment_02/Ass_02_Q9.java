@@ -15,6 +15,7 @@ public class Ass_02_Q9 {
             int num = i;
             int orignalNum = i;
             int digit = String.valueOf(i).length();
+//            int digit = (int)(Math.log10(num)+1);
             int res = 0;
             while (num > 0){
                 int rem = num % 10;
