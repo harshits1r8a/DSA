@@ -2,7 +2,7 @@ package Function;
 
 import java.util.Arrays;
 
-public class V11Function3 {
+public class V11Function3scoping {
     public static void main(String[] args) {
         int[]  arr = {1,23,4,56,7};
         update(arr);

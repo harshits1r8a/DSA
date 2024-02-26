@@ -2,7 +2,7 @@ package LinearSearch;
 
 import java.util.Arrays;
 
-public class LinSer2Str {
+public class  LinSer2Str {
     public static void main(String[] args) {
         String str = "Harshit";
         System.out.println(Arrays.toString(str.toCharArray()));
