@@ -4,7 +4,7 @@ public class InfiniteBS {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 9, 10, 90,
                 100, 130, 140, 160, 170};
-        int target = 10;
+        int target = 165;
         // It might be show some time error when trying to find element far away from start b/z we take an example of array 
         // that is not infinite but logic is written for infinite array
         System.out.println("Index : "+ ans(arr,target));
