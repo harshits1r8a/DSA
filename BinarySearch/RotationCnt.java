@@ -8,9 +8,10 @@ public class RotationCnt {
 
     private static int countRotations(int[] arr) {
         int pivot = findPivot(arr);
-        if(pivot == -1){
-            return 0;
-        }
+//        We can hide it also b/z -1+1 == 0
+//        if(pivot == -1){
+//            return 0;
+//        }
         return pivot+1;
     }
 
